@@ -1,1 +1,7 @@
-*.pyc
+*.exe
+*.o
+__pycache__/
+*.class
+node_modules/
+*.pptx
+*.pdf
