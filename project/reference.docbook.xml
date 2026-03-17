@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book xml:id="presentation-api" lang="ru">
+  <title>Справочное руководство программиста</title>
+  <subtitle>Программа презентаций (аналог Microsoft PowerPoint)</subtitle>
+  <bookinfo>
+    <author><personname><firstname>Студент</firstname><surname>Фамилия</surname></personname></author>
+    <date>2026</date>
+  </bookinfo>
+
+  <chapter>
+    <title>Модуль main</title>
+    <para>Точка входа приложения. Запускает демонстрацию презентации и инициализирует основные компоненты.</para>
+  </chapter>
+
+  <chapter>
+    <title>Модули slides</title>
+    <section><title>Slide</title><para>Основной класс слайда. Содержит элементы, тему, фон и метод render().</para></section>
+    <section><title>Layout</title><para>Валидация и список поддерживаемых макетов слайдов (title_slide, title_and_content и др.).</para></section>
+    <section><title>MasterSlide</title><para>Мастер-шаблон для глобальных настроек всей презентации.</para></section>
+  </chapter>
+
+  <chapter>
+    <title>Модуль content</title>
+    <section><title>TextBlock</title><para>Текстовые блоки с поддержкой форматирования.</para></section>
+    <section><title>Image</title><para>Вставка и масштабирование изображений.</para></section>
+    <section><title>Shape</title><para>Геометрические фигуры (прямоугольник, круг, стрелка и т.д.).</para></section>
+    <section><title>Table</title><para>Таблицы с возможностью заполнения ячеек.</para></section>
+  </chapter>
+
+  <chapter>
+    <title>Модуль design</title>
+    <section><title>Theme</title><para>Темы оформления (цвета, шрифты, акценты).</para></section>
+    <section><title>Background</title><para>Фоны слайдов (solid, gradient, picture).</para></section>
+    <section><title>ColorScheme</title><para>Цветовые схемы для всей презентации.</para></section>
+  </chapter>
+
+  <chapter>
+    <title>Модуль animation</title>
+    <section><title>Animation</title><para>Анимации объектов (appear, fade, fly_in, zoom и др.).</para></section>
+    <section><title>Transition</title><para>Переходы между слайдами (fade, push, morph и др.).</para></section>
+  </chapter>
+
+  <chapter>
+    <title>Модуль media</title>
+    <section><title>Audio</title><para>Аудиофайлы с настройками автозапуска и громкости.</para></section>
+    <section><title>Video</title><para>Видеоэлементы с контролами и размерами.</para></section>
+  </chapter>
+
+  <chapter>
+    <title>Модуль presenter</title>
+    <section><title>PresenterView</title><para>Режим докладчика: заметки, таймер, текущий слайд.</para></section>
+  </chapter>
+
+</book>
